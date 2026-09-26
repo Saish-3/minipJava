@@ -102,7 +102,7 @@ public class ShoppingCartApp extends JFrame {
     public ShoppingCartApp() {
         db       = new ProductDatabase();
         cart     = new Cart();
-        customer = new Customer(1, "Saish Patil", "saish@example.com", "9876543210");
+        customer = new Customer(1, "Karan Aujla", "karanaujla@example.com", "9876543210");
 
         initUI();
         setVisible(true);
